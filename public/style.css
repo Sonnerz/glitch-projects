@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+.border {
+  border-style: inset;
+  border-width: 1px;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.avatar {
+  display: inline-block;
+}
+
+.project-card-img{
+  padding: 0;
+  margin:0;
+}
+
+.project-card-details {
+  background-color: #fff;
+  padding: 0;
+  display: flex;
+  align-items: center; 
+  border-top: 1px solid #333;
+  box-sizing: border-box;
+}
+
+.project-card-img {
+  border-top: 1px solid #333;
+  box-sizing: border-box;  
+}
+
+.proj-details{
+  margin-left: 15px;
+}
+
+.proj-details p {
+  font-size: 0.6em;
+  padding:0;
+  margin:0;  
+}
+
+p.proj-desc {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.proj-title {
+  font-weight: 700;
+}
+
+.proj-image{
+  float:right;
+}
+
+@media (min-width: 768px) {
+  .proj-details p {
+    font-size: 0.7em;
+  }
+  p.proj-desc {
+    font-size: 1.0em;
+}
+  .proj-details {
+    margin-left: 30px;
