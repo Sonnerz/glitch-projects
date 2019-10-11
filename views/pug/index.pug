@@ -24,9 +24,9 @@ html
       - projects.sort((a,b)=>new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
       each p, index in projects
         div.row
-          div.col-3.col-md-6.project-card-img
+          div.col-3.col-md-3.project-card-img
             img.img-fluid.proj-image(src='https://cdn.glitch.com/project-avatar/' + p.id +'.png')
-          div.col-9.col-md-6.project-card-details
+          div.col-9.col-md-9.project-card-details
             div.proj-details
               p.proj-desc= '#' + (index+1) + ': ' + p.description
               p 
